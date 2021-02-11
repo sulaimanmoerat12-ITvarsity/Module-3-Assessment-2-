@@ -1,0 +1,280 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+/*==========HOME PAGE==========*/
+.body-home {
+    background-image: url('images/back%20img6.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-starters {
+    background-image: url('images/bag.7.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-starters p1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+ /*==========HEADER==========*/   
+
+.header {
+    background-color: crimson;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+    
+    padding-top: 10px;
+    padding-right: 25px;
+    
+}
+
+.header i {
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color:  bisque;
+    
+}
+
+/*=====HOME PAGE MENU=====*/
+
+.home-menu {
+    padding-bottom: 20px;
+}
+
+
+
+
+.home-menu-items {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+#home-logo-img {
+    width: 240px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 8px;
+}
+
+
+#home-logo-text {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 20px; 
+    width: 220px;
+}
+ /*==========STARTERS PAGE==========*/   
+    
+.starters-list {
+    padding-top: 10px;
+}
+
+/*=====STARTERS PAGE MENU=====*/
+
+.starters-list a {
+    text-decoration: none;
+}
+
+.starters-list-items {
+    border: 5px solid white;
+    margin: 10px;
+}
+
+.starters-list-items h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: wheat;
+    padding-left: 10px;
+}
+
+.starters-list-items i {
+    float: right;
+    color: bisque;
+    padding-right: 13px;
+}
+
+
+.starters-list-items p {
+    font-size: 15px;
+    font-style: italic;
+    color: antiquewhite;
+    margin-top: -7;
+    padding-left: 10px;
+}
+
+
+ /*==========STARTERS MENU PAGE==========*/   
+
+#starters {
+    padding-top: 50px;
+}
+
+/*=====STARTERS DETAILS=====*/
+
+.starters-details img {
+    width: 100%;
+}
+
+.starters-details h1 {
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #ffffff;
+    margin: 10px;
+    padding: 5px;
+    color: wheat;
+}
+
+.starters-details h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 20px;
+    color: wheat;
+}
+
+.starters-details li {
+    color: wheat;
+    margin-left: 10px;
+    
+}
+
+.starters-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.starters-details-info p{
+    font-size: 13px;
+    color: wheat;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+ /*==========STARTERS DETAILS INPUT==========*/  
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #1a1a1a;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+textarea{
+    width: 99.5%;
+    height: 65%;
+    border: 1px solid #1a1a1a;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: crimson;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 10px;
+}
+
+ /*==========RESPONSIVE LAYOUT==========*/
+
+@media only screen and (min-width:600px) {
+    #meals  {
+        width: 80%;
+        margin: auto;
+  }
+}
+
+@media only screen and (min-width:600px)     {
+    
+#starters {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width:1000px) {
+
+    #meals  {
+        width: 60%;
+        margin: auto;
+   }
+}
+    
+@media only screen and (min-width:1000px) {
+
+    #starters {
+       width: 60%;
+       margin: auto;
+   }
+}
+
+@media only screen and (min-width:1500px) {
+
+    #meals  {
+        width: 40%;
+        margin: auto;
+   }
+}
+    
+@media only screen and (min-width:1500px) {
+
+    #starters {
+       width: 40%;
+       margin: auto;
+   }
+}
+
+@media only screen and (min-width: 720px) {
+    .body-home {
+        background-image: url('images/10802.1.jpg')  
+    }
+    .body-starters {
+        background-image: url('images/1080.jpg')
+    } 
+}
+
+
+
